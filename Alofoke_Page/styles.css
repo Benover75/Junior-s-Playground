@@ -1,0 +1,161 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Icy black background */
+    color: #fff;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    padding: 20px;
+    background-color: #000;
+    border-bottom: 4px solid #ff0000; /* Bold red border */
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8); /* Glowing red shadow */
+}
+
+/* Title Styles */
+.bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    color: #ff0000; /* Red text */
+    font-size: 3em; /* Adjust font size as needed */
+    letter-spacing: 3px;
+    text-shadow: 0 0 8px rgba(255, 0, 0, 0.9); /* Red glowing effect */
+    margin: 0 auto 20px; /* Center align and provide space below */
+}
+
+/* Main Content Styles */
+main {
+    padding: 30px;
+}
+
+/* Container for Channel Boxes */
+.channel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    max-width: 600px; /* Set a max width to ensure it fits well on the page */
+    margin: 0 auto; /* Center the channel boxes on the page */
+    padding: 20px;
+}
+
+/* Individual Channel Box Styles */
+.channel-box {
+    width: 100%;
+    margin: 20px 0; /* Vertical margin to separate boxes */
+    border: 5px solid rgba(255, 0, 0, 0.9);
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Slightly transparent black for icy effect */
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.8); /* Enhanced red glow */
+    padding: 15px;
+    transition: transform 0.4s, box-shadow 0.4s;
+    display: flex;
+    justify-content: center; /* Center align content inside the box */
+}
+
+/* Hover Effects for Channel Box */
+.channel-box:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 0 50px rgba(255, 0, 0, 1); /* Stronger glow on hover */
+}
+
+/* Button Styles */
+.channel-button {
+    display: inline-block;
+    padding: 15px 25px;
+    background: linear-gradient(145deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)); /* Gradient for icy effect */
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid rgba(255, 0, 0, 0.9);
+    border-radius: 15px;
+    font-family: 'Orbitron', sans-serif; /* Cool, slick font */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 1px; /* Space out letters for a sleek look */
+    transition: background 0.3s, transform 0.3s, border-color 0.3s, box-shadow 0.3s, text-shadow 0.3s;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4); /* Deeper shadow */
+    margin: 10px; /* Margin to separate buttons */
+}
+
+/* Hover Effects for Buttons */
+.channel-button:hover {
+    background: linear-gradient(145deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
+    border-color: rgba(255, 0, 0, 1); /* More intense red border */
+    transform: translateY(-6px); /* Lift effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+    color: #ff0000; /* Flashy red text on hover */
+    text-shadow: 0 0 8px rgba(255, 0, 0, 0.8); /* Red glowing effect */
+}
+
+/* Specific Button Styles */
+.alofoke-button, .youtube-button, .wikipedia-button {
+    background: linear-gradient(145deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)); /* Icy effect */
+    color: #fff;
+    border: 3px solid rgba(255, 0, 0, 0.9);
+    border-radius: 15px;
+    font-family: 'Orbitron', sans-serif; /* Cool, slick font */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    transition: background 0.3s, transform 0.3s, border-color 0.3s, box-shadow 0.3s, text-shadow 0.3s;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4); /* Deeper shadow */
+}
+
+/* Hover Effects for Specific Buttons */
+.alofoke-button:hover, .youtube-button:hover, .wikipedia-button:hover {
+    background: linear-gradient(145deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
+    border-color: rgba(255, 0, 0, 1); /* More intense red border */
+    transform: translateY(-6px); /* Lift effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+    color: #ff0000; /* Flashy red text on hover */
+    text-shadow: 0 0 8px rgba(255, 0, 0, 0.8); /* Red glowing effect */
+}
+
+/* Link Container Styles */
+.link-container {
+    margin-top: 30px;
+}
+
+/* Small Button Styles */
+.small-button {
+    background: linear-gradient(145deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)); /* Icy effect */
+    color: #fff;
+    border: 3px solid rgba(255, 0, 0, 0.9);
+    border-radius: 15px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.3s, border-color 0.3s, box-shadow 0.3s, text-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Deeper shadow */
+}
+
+/* Hover Effects for Small Buttons */
+.small-button:hover {
+    background: linear-gradient(145deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
+    border-color: rgba(255, 0, 0, 1); /* More intense red border */
+    transform: translateY(-4px); /* Lift effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+    color: #ff0000; /* Flashy red text on hover */
+    text-shadow: 0 0 6px rgba(255, 0, 0, 0.8); /* Red glowing effect */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .channel-container {
+        max-width: 90%; /* Allow the container to use more width on smaller screens */
+    }
+}

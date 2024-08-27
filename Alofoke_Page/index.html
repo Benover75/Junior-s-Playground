@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alofoke Channels</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="bungee-tint-regular">Alofoke's YouTube Channels</h1>
+    </header>
+
+    <main>
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Each swiper-slide contains a channel -->
+                <div class="swiper-slide">
+                    <a href="https://www.youtube.com/results?search_query=alofoke+el+iluminado" class="channel-button" target="_blank">
+                        <img src="C:/Users/Lamberto Nunez/Desktop/Alofoke_Page/Alofoke_Images/El_Iluminado.png" alt="El Iluminado" class="channel-image">
+                        El Iluminado
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://www.youtube.com/results?search_query=alofoke+radio+show" class="channel-button" target="_blank">
+                        <img src="C:/Users/Lamberto Nunez/Desktop/Alofoke_Page/Alofoke_Images/Alofoke_Radio_Show.png" alt="Alofoke Radio Show" class="channel-image">
+                        Alofoke Radio Show
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://www.youtube.com/results?search_query=los+jediondos" class="channel-button" target="_blank">
+                        <img src="C:/Users/Lamberto Nunez/Desktop/Alofoke_Page/Alofoke_Images/Los_Jediondos.png" alt="Los Jediondos" class="channel-image">
+                        Los Jediondos
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://www.youtube.com/results?search_query=alofoke+tv+show+sin+filtro" class="channel-button" target="_blank">
+                        <img src="C:/Users/Lamberto Nunez/Desktop/Alofoke_Page/Alofoke_Images/Sin_Filtro_Radio_Show.png" alt="Sin Filtro Radio Show" class="channel-image">
+                        Sin Filtro Radio Show
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://www.youtube.com/results?search_query=esto+no+es+radio+show" class="channel-button" target="_blank">
+                        <img src="C:/Users/Lamberto Nunez/Desktop/Alofoke_Page/Alofoke_Images/Esto_no_es_Radio.png" alt="Esto No Es Radio" class="channel-image">
+                        Esto No Es Radio
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://www.youtube.com/results?search_query=alofoke+music" class="channel-button" target="_blank">
+                        <img src="C:/Users/Lamberto Nunez/Desktop/Alofoke_Page/Alofoke_Images/Finanzas_con_Humor.png" alt="Finanzas con Humor" class="channel-image">
+                        Finanzas con Humor
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://www.youtube.com/results?search_query=el+recetario" class="channel-button" target="_blank">
+                        <img src="C:/Users/Lamberto Nunez/Desktop/Alofoke_Page/Alofoke_Images/El_Recetario.png" alt="El Recetario" class="channel-image">
+                        El Recetario
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://www.youtube.com/results?search_query=de+ultimo+minuto+media+alofoke" class="channel-button" target="_blank">
+                        <img src="C:/Users/Lamberto Nunez/Desktop/Alofoke_Page/Alofoke_Images/De_Ultimo_Minuto_Media.png" alt="De Último Minuto Media" class="channel-image">
+                        De Último Minuto Media
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://www.youtube.com/results?search_query=tu+vera+lio" class="channel-button" target="_blank">
+                        <img src="C:/Users/Lamberto Nunez/Desktop/Alofoke_Page/Alofoke_Images/Tu_Vera_Lio.png" alt="Tu Vera Lio" class="channel-image">
+                        Tu Vera Lio
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://tunein.com/radio/ALOFOKE-RADIO-s296654/" class="channel-button" target="_blank">
+                        <img src="C:/Users/Lamberto Nunez/Desktop/Alofoke_Page/Alofoke_Images/Alofoke_FM99.3.png" alt="Alofoke FM99.3" class="channel-image">
+                        Alofoke FM99.3
+                    </a>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <!-- Wikipedia Link -->
+        <div class="link-container">
+            <a href="https://en.wikipedia.org/wiki/Santiago_Mat%C3%ADas" class="small-button" target="_blank">Santiago Matias Wikipedia</a>
+        </div>
+    </main>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                },
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                },
+            }
+        });
+    </script>
+</body>
+</html>
